@@ -1,0 +1,4032 @@
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x3aad (15021)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0xadfb [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0x4cac [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 1 (0x0001)
+	Sequence Number (LE): 256 (0x0100)
+	Timestamp from icmp data: Nov 29, 2023 11:10:28.000000000 KST
+	Timestamp from icmp data (relative): 0.030996251 seconds
+	data: f178000000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: f178000000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:40:56:1b
+	Address: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:00:00:18
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0xc065 (49253)
+	Flags: 0x00
+	0... .... = Reserved bit: Not set
+	.0.. .... = Don't fragment: Not set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 128
+	Protocol: ICMP (1)
+	Header Checksum: 0x2843 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 8.8.8.8
+	Destination Address: 10.211.55.30
+Layer ICMP:
+	Type: 0 (Echo (ping) reply)
+	Code: 0
+	Checksum: 0x54ac [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 1 (0x0001)
+	Sequence Number (LE): 256 (0x0100)
+	Request frame: 3
+	Response time: 36.973 ms
+	Timestamp from icmp data: Nov 29, 2023 11:10:28.000000000 KST
+	Timestamp from icmp data (relative): 0.067969139 seconds
+	data: f178000000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: f178000000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x3af7 (15095)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0xadb1 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0xa4a4 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 2 (0x0002)
+	Sequence Number (LE): 512 (0x0200)
+	Timestamp from icmp data: Nov 29, 2023 11:10:29.000000000 KST
+	Timestamp from icmp data (relative): 0.032691324 seconds
+	data: 987f000000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 987f000000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:40:56:1b
+	Address: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:00:00:18
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0xc066 (49254)
+	Flags: 0x00
+	0... .... = Reserved bit: Not set
+	.0.. .... = Don't fragment: Not set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 128
+	Protocol: ICMP (1)
+	Header Checksum: 0x2842 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 8.8.8.8
+	Destination Address: 10.211.55.30
+Layer ICMP:
+	Type: 0 (Echo (ping) reply)
+	Code: 0
+	Checksum: 0xaca4 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 2 (0x0002)
+	Sequence Number (LE): 512 (0x0200)
+	Request frame: 29
+	Response time: 33.628 ms
+	Timestamp from icmp data: Nov 29, 2023 11:10:29.000000000 KST
+	Timestamp from icmp data (relative): 0.066319677 seconds
+	data: 987f000000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 987f000000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x3b51 (15185)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0xad57 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0xa09c [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 3 (0x0003)
+	Sequence Number (LE): 768 (0x0300)
+	Timestamp from icmp data: Nov 29, 2023 11:10:30.000000000 KST
+	Timestamp from icmp data (relative): 0.034582483 seconds
+	data: 9b86000000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 9b86000000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x3b8e (15246)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0xad1a [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0xf493 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 4 (0x0004)
+	Sequence Number (LE): 1024 (0x0400)
+	Timestamp from icmp data: Nov 29, 2023 11:10:31.000000000 KST
+	Timestamp from icmp data (relative): 0.036448438 seconds
+	data: 468e000000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 468e000000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:40:56:1b
+	Address: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:00:00:18
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0xc06b (49259)
+	Flags: 0x00
+	0... .... = Reserved bit: Not set
+	.0.. .... = Don't fragment: Not set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 128
+	Protocol: ICMP (1)
+	Header Checksum: 0x283d [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 8.8.8.8
+	Destination Address: 10.211.55.30
+Layer ICMP:
+	Type: 0 (Echo (ping) reply)
+	Code: 0
+	Checksum: 0xfc93 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 4 (0x0004)
+	Sequence Number (LE): 1024 (0x0400)
+	Request frame: 11
+	Response time: 32.909 ms
+	Timestamp from icmp data: Nov 29, 2023 11:10:31.000000000 KST
+	Timestamp from icmp data (relative): 0.069357594 seconds
+	data: 468e000000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 468e000000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x3be6 (15334)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0xacc2 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0x9386 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 5 (0x0005)
+	Sequence Number (LE): 1280 (0x0500)
+	Timestamp from icmp data: Nov 29, 2023 11:10:32.000000000 KST
+	Timestamp from icmp data (relative): 0.039737795 seconds
+	data: a69a000000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: a69a000000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:40:56:1b
+	Address: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:00:00:18
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0xc06e (49262)
+	Flags: 0x00
+	0... .... = Reserved bit: Not set
+	.0.. .... = Don't fragment: Not set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 128
+	Protocol: ICMP (1)
+	Header Checksum: 0x283a [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 8.8.8.8
+	Destination Address: 10.211.55.30
+Layer ICMP:
+	Type: 0 (Echo (ping) reply)
+	Code: 0
+	Checksum: 0x9b86 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 5 (0x0005)
+	Sequence Number (LE): 1280 (0x0500)
+	Request frame: 24
+	Response time: 36.915 ms
+	Timestamp from icmp data: Nov 29, 2023 11:10:32.000000000 KST
+	Timestamp from icmp data (relative): 0.076652852 seconds
+	data: a69a000000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: a69a000000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x3c94 (15508)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0xac14 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0xc970 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 6 (0x0006)
+	Sequence Number (LE): 1536 (0x0600)
+	Timestamp from icmp data: Nov 29, 2023 11:10:33.000000000 KST
+	Timestamp from icmp data (relative): 0.044991171 seconds
+	data: 6faf000000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 6faf000000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x3cec (15596)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0xabbc [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0x8a6a [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 7 (0x0007)
+	Sequence Number (LE): 1792 (0x0700)
+	Timestamp from icmp data: Nov 29, 2023 11:10:34.000000000 KST
+	Timestamp from icmp data (relative): 0.046300482 seconds
+	data: adb4000000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: adb4000000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:40:56:1b
+	Address: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:00:00:18
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0xc07a (49274)
+	Flags: 0x00
+	0... .... = Reserved bit: Not set
+	.0.. .... = Don't fragment: Not set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 128
+	Protocol: ICMP (1)
+	Header Checksum: 0x282e [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 8.8.8.8
+	Destination Address: 10.211.55.30
+Layer ICMP:
+	Type: 0 (Echo (ping) reply)
+	Code: 0
+	Checksum: 0x926a [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 7 (0x0007)
+	Sequence Number (LE): 1792 (0x0700)
+	Request frame: 17
+	Response time: 69.954 ms
+	Timestamp from icmp data: Nov 29, 2023 11:10:34.000000000 KST
+	Timestamp from icmp data (relative): 0.116254569 seconds
+	data: adb4000000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: adb4000000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x3d9a (15770)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0xab0e [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0x1b46 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 8 (0x0008)
+	Sequence Number (LE): 2048 (0x0800)
+	Timestamp from icmp data: Nov 29, 2023 11:10:35.000000000 KST
+	Timestamp from icmp data (relative): 0.055362689 seconds
+	data: 1bd8000000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 1bd8000000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:40:56:1b
+	Address: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:00:00:18
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0xc07b (49275)
+	Flags: 0x00
+	0... .... = Reserved bit: Not set
+	.0.. .... = Don't fragment: Not set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 128
+	Protocol: ICMP (1)
+	Header Checksum: 0x282d [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 8.8.8.8
+	Destination Address: 10.211.55.30
+Layer ICMP:
+	Type: 0 (Echo (ping) reply)
+	Code: 0
+	Checksum: 0x2346 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 8 (0x0008)
+	Sequence Number (LE): 2048 (0x0800)
+	Request frame: 33
+	Response time: 108.757 ms
+	Timestamp from icmp data: Nov 29, 2023 11:10:35.000000000 KST
+	Timestamp from icmp data (relative): 0.164119723 seconds
+	data: 1bd8000000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 1bd8000000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x3de2 (15842)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0xaac6 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0x593d [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 9 (0x0009)
+	Sequence Number (LE): 2304 (0x0900)
+	Timestamp from icmp data: Nov 29, 2023 11:10:36.000000000 KST
+	Timestamp from icmp data (relative): 0.057341042 seconds
+	data: dcdf000000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: dcdf000000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x3e19 (15897)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0xaa8f [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0x2736 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 10 (0x000a)
+	Sequence Number (LE): 2560 (0x0a00)
+	Timestamp from icmp data: Nov 29, 2023 11:10:37.000000000 KST
+	Timestamp from icmp data (relative): 0.058938781 seconds
+	data: 0de6000000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 0de6000000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:40:56:1b
+	Address: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:00:00:18
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0xc07d (49277)
+	Flags: 0x00
+	0... .... = Reserved bit: Not set
+	.0.. .... = Don't fragment: Not set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 128
+	Protocol: ICMP (1)
+	Header Checksum: 0x282b [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 8.8.8.8
+	Destination Address: 10.211.55.30
+Layer ICMP:
+	Type: 0 (Echo (ping) reply)
+	Code: 0
+	Checksum: 0x2f36 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 10 (0x000a)
+	Sequence Number (LE): 2560 (0x0a00)
+	Request frame: 7
+	Response time: 37.216 ms
+	Timestamp from icmp data: Nov 29, 2023 11:10:37.000000000 KST
+	Timestamp from icmp data (relative): 0.096154418 seconds
+	data: 0de6000000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 0de6000000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x3e83 (16003)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0xaa25 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0x0f25 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 11 (0x000b)
+	Sequence Number (LE): 2816 (0x0b00)
+	Timestamp from icmp data: Nov 29, 2023 11:10:38.000000000 KST
+	Timestamp from icmp data (relative): 0.063090322 seconds
+	data: 24f6000000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 24f6000000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:40:56:1b
+	Address: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:00:00:18
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0xc07e (49278)
+	Flags: 0x00
+	0... .... = Reserved bit: Not set
+	.0.. .... = Don't fragment: Not set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 128
+	Protocol: ICMP (1)
+	Header Checksum: 0x282a [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 8.8.8.8
+	Destination Address: 10.211.55.30
+Layer ICMP:
+	Type: 0 (Echo (ping) reply)
+	Code: 0
+	Checksum: 0x1725 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 11 (0x000b)
+	Sequence Number (LE): 2816 (0x0b00)
+	Request frame: 17
+	Response time: 33.102 ms
+	Timestamp from icmp data: Nov 29, 2023 11:10:38.000000000 KST
+	Timestamp from icmp data (relative): 0.096192476 seconds
+	data: 24f6000000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 24f6000000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x3f3c (16188)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0xa96c [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0x971e [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 12 (0x000c)
+	Sequence Number (LE): 3072 (0x0c00)
+	Timestamp from icmp data: Nov 29, 2023 11:10:39.000000000 KST
+	Timestamp from icmp data (relative): 0.064437241 seconds
+	data: 9bfb000000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 9bfb000000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x3fa1 (16289)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0xa907 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0x460d [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 13 (0x000d)
+	Sequence Number (LE): 3328 (0x0d00)
+	Timestamp from icmp data: Nov 29, 2023 11:10:40.000000000 KST
+	Timestamp from icmp data (relative): 0.068652166 seconds
+	data: eb0b010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: eb0b010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:40:56:1b
+	Address: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:00:00:18
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0xc080 (49280)
+	Flags: 0x00
+	0... .... = Reserved bit: Not set
+	.0.. .... = Don't fragment: Not set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 128
+	Protocol: ICMP (1)
+	Header Checksum: 0x2828 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 8.8.8.8
+	Destination Address: 10.211.55.30
+Layer ICMP:
+	Type: 0 (Echo (ping) reply)
+	Code: 0
+	Checksum: 0x4e0d [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 13 (0x000d)
+	Sequence Number (LE): 3328 (0x0d00)
+	Request frame: 3
+	Response time: 34.733 ms
+	Timestamp from icmp data: Nov 29, 2023 11:10:40.000000000 KST
+	Timestamp from icmp data (relative): 0.103384963 seconds
+	data: eb0b010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: eb0b010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x4097 (16535)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0xa811 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0x7903 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 14 (0x000e)
+	Sequence Number (LE): 3584 (0x0e00)
+	Timestamp from icmp data: Nov 29, 2023 11:10:41.000000000 KST
+	Timestamp from icmp data (relative): 0.070916040 seconds
+	data: b714010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: b714010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:40:56:1b
+	Address: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:00:00:18
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0xc081 (49281)
+	Flags: 0x00
+	0... .... = Reserved bit: Not set
+	.0.. .... = Don't fragment: Not set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 128
+	Protocol: ICMP (1)
+	Header Checksum: 0x2827 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 8.8.8.8
+	Destination Address: 10.211.55.30
+Layer ICMP:
+	Type: 0 (Echo (ping) reply)
+	Code: 0
+	Checksum: 0x8103 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 14 (0x000e)
+	Sequence Number (LE): 3584 (0x0e00)
+	Request frame: 12
+	Response time: 38.333 ms
+	Timestamp from icmp data: Nov 29, 2023 11:10:41.000000000 KST
+	Timestamp from icmp data (relative): 0.109249536 seconds
+	data: b714010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: b714010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x417f (16767)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0xa729 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0x10f9 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 15 (0x000f)
+	Sequence Number (LE): 3840 (0x0f00)
+	Timestamp from icmp data: Nov 29, 2023 11:10:42.000000000 KST
+	Timestamp from icmp data (relative): 0.073391707 seconds
+	data: 1e1e010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 1e1e010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x4217 (16919)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0xa691 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0xa5ed [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 16 (0x0010)
+	Sequence Number (LE): 4096 (0x1000)
+	Timestamp from icmp data: Nov 29, 2023 11:10:43.000000000 KST
+	Timestamp from icmp data (relative): 0.076004169 seconds
+	data: 8828010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 8828010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:40:56:1b
+	Address: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:00:00:18
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0xc083 (49283)
+	Flags: 0x00
+	0... .... = Reserved bit: Not set
+	.0.. .... = Don't fragment: Not set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 128
+	Protocol: ICMP (1)
+	Header Checksum: 0x2825 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 8.8.8.8
+	Destination Address: 10.211.55.30
+Layer ICMP:
+	Type: 0 (Echo (ping) reply)
+	Code: 0
+	Checksum: 0xaded [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 16 (0x0010)
+	Sequence Number (LE): 4096 (0x1000)
+	Request frame: 6
+	Response time: 35.225 ms
+	Timestamp from icmp data: Nov 29, 2023 11:10:43.000000000 KST
+	Timestamp from icmp data (relative): 0.111228919 seconds
+	data: 8828010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 8828010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x42ff (17151)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0xa5a9 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0x94e7 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 17 (0x0011)
+	Sequence Number (LE): 4352 (0x1100)
+	Timestamp from icmp data: Nov 29, 2023 11:10:44.000000000 KST
+	Timestamp from icmp data (relative): 0.078107643 seconds
+	data: 982d010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 982d010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:40:56:1b
+	Address: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:00:00:18
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0xc084 (49284)
+	Flags: 0x00
+	0... .... = Reserved bit: Not set
+	.0.. .... = Don't fragment: Not set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 128
+	Protocol: ICMP (1)
+	Header Checksum: 0x2824 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 8.8.8.8
+	Destination Address: 10.211.55.30
+Layer ICMP:
+	Type: 0 (Echo (ping) reply)
+	Code: 0
+	Checksum: 0x9ce7 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 17 (0x0011)
+	Sequence Number (LE): 4352 (0x1100)
+	Request frame: 13
+	Response time: 34.534 ms
+	Timestamp from icmp data: Nov 29, 2023 11:10:44.000000000 KST
+	Timestamp from icmp data (relative): 0.112641444 seconds
+	data: 982d010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 982d010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x437c (17276)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0xa52c [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0x44ce [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 18 (0x0012)
+	Sequence Number (LE): 4608 (0x1200)
+	Timestamp from icmp data: Nov 29, 2023 11:10:45.000000000 KST
+	Timestamp from icmp data (relative): 0.083497492 seconds
+	data: e745010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: e745010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x4458 (17496)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0xa450 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0x1ec6 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 19 (0x0013)
+	Sequence Number (LE): 4864 (0x1300)
+	Timestamp from icmp data: Nov 29, 2023 11:10:46.000000000 KST
+	Timestamp from icmp data (relative): 0.085287396 seconds
+	data: 0c4d010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 0c4d010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:40:56:1b
+	Address: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:00:00:18
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0xc086 (49286)
+	Flags: 0x00
+	0... .... = Reserved bit: Not set
+	.0.. .... = Don't fragment: Not set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 128
+	Protocol: ICMP (1)
+	Header Checksum: 0x2822 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 8.8.8.8
+	Destination Address: 10.211.55.30
+Layer ICMP:
+	Type: 0 (Echo (ping) reply)
+	Code: 0
+	Checksum: 0x26c6 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 19 (0x0013)
+	Sequence Number (LE): 4864 (0x1300)
+	Request frame: 1
+	Response time: 91.041 ms
+	Timestamp from icmp data: Nov 29, 2023 11:10:46.000000000 KST
+	Timestamp from icmp data (relative): 0.176328646 seconds
+	data: 0c4d010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 0c4d010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x44e7 (17639)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0xa3c1 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0xf9b6 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 20 (0x0014)
+	Sequence Number (LE): 5120 (0x1400)
+	Timestamp from icmp data: Nov 29, 2023 11:10:47.000000000 KST
+	Timestamp from icmp data (relative): 0.088935905 seconds
+	data: 305b010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 305b010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:40:56:1b
+	Address: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:00:00:18
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0xc087 (49287)
+	Flags: 0x00
+	0... .... = Reserved bit: Not set
+	.0.. .... = Don't fragment: Not set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 128
+	Protocol: ICMP (1)
+	Header Checksum: 0x2821 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 8.8.8.8
+	Destination Address: 10.211.55.30
+Layer ICMP:
+	Type: 0 (Echo (ping) reply)
+	Code: 0
+	Checksum: 0x01b7 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 20 (0x0014)
+	Sequence Number (LE): 5120 (0x1400)
+	Request frame: 10
+	Response time: 135.904 ms
+	Timestamp from icmp data: Nov 29, 2023 11:10:47.000000000 KST
+	Timestamp from icmp data (relative): 0.224839477 seconds
+	data: 305b010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 305b010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x45d1 (17873)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0xa2d7 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0x0bb3 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 21 (0x0015)
+	Sequence Number (LE): 5376 (0x1500)
+	Timestamp from icmp data: Nov 29, 2023 11:10:48.000000000 KST
+	Timestamp from icmp data (relative): 0.089656751 seconds
+	data: 1d5e010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 1d5e010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:40:56:1b
+	Address: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:00:00:18
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0xc089 (49289)
+	Flags: 0x00
+	0... .... = Reserved bit: Not set
+	.0.. .... = Don't fragment: Not set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 128
+	Protocol: ICMP (1)
+	Header Checksum: 0x281f [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 8.8.8.8
+	Destination Address: 10.211.55.30
+Layer ICMP:
+	Type: 0 (Echo (ping) reply)
+	Code: 0
+	Checksum: 0x13b3 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 21 (0x0015)
+	Sequence Number (LE): 5376 (0x1500)
+	Timestamp from icmp data: Nov 29, 2023 11:10:48.000000000 KST
+	Timestamp from icmp data (relative): 0.271187677 seconds
+	data: 1d5e010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 1d5e010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x4609 (17929)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0xa29f [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0x7097 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 22 (0x0016)
+	Sequence Number (LE): 5632 (0x1600)
+	Timestamp from icmp data: Nov 29, 2023 11:10:49.000000000 KST
+	Timestamp from icmp data (relative): 0.096532473 seconds
+	data: b778010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: b778010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:40:56:1b
+	Address: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:00:00:18
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0xc08a (49290)
+	Flags: 0x00
+	0... .... = Reserved bit: Not set
+	.0.. .... = Don't fragment: Not set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 128
+	Protocol: ICMP (1)
+	Header Checksum: 0x281e [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 8.8.8.8
+	Destination Address: 10.211.55.30
+Layer ICMP:
+	Type: 0 (Echo (ping) reply)
+	Code: 0
+	Checksum: 0x7897 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 22 (0x0016)
+	Sequence Number (LE): 5632 (0x1600)
+	Request frame: 12
+	Response time: 48.314 ms
+	Timestamp from icmp data: Nov 29, 2023 11:10:49.000000000 KST
+	Timestamp from icmp data (relative): 0.144846205 seconds
+	data: b778010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: b778010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x4703 (18179)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0xa1a5 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0xdb88 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 23 (0x0017)
+	Sequence Number (LE): 5888 (0x1700)
+	Timestamp from icmp data: Nov 29, 2023 11:10:50.000000000 KST
+	Timestamp from icmp data (relative): 0.100166995 seconds
+	data: 4b86010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 4b86010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:40:56:1b
+	Address: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:00:00:18
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0xc08c (49292)
+	Flags: 0x00
+	0... .... = Reserved bit: Not set
+	.0.. .... = Don't fragment: Not set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 128
+	Protocol: ICMP (1)
+	Header Checksum: 0x281c [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 8.8.8.8
+	Destination Address: 10.211.55.30
+Layer ICMP:
+	Type: 0 (Echo (ping) reply)
+	Code: 0
+	Checksum: 0xe388 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 23 (0x0017)
+	Sequence Number (LE): 5888 (0x1700)
+	Request frame: 23
+	Response time: 34.225 ms
+	Timestamp from icmp data: Nov 29, 2023 11:10:50.000000000 KST
+	Timestamp from icmp data (relative): 0.134391927 seconds
+	data: 4b86010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 4b86010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x472b (18219)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0xa17d [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0xbe77 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 24 (0x0018)
+	Sequence Number (LE): 6144 (0x1800)
+	Timestamp from icmp data: Nov 29, 2023 11:10:51.000000000 KST
+	Timestamp from icmp data (relative): 0.104123060 seconds
+	data: 6796010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 6796010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:40:56:1b
+	Address: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:00:00:18
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0xc08d (49293)
+	Flags: 0x00
+	0... .... = Reserved bit: Not set
+	.0.. .... = Don't fragment: Not set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 128
+	Protocol: ICMP (1)
+	Header Checksum: 0x281b [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 8.8.8.8
+	Destination Address: 10.211.55.30
+Layer ICMP:
+	Type: 0 (Echo (ping) reply)
+	Code: 0
+	Checksum: 0xc677 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 24 (0x0018)
+	Sequence Number (LE): 6144 (0x1800)
+	Request frame: 1
+	Response time: 34.282 ms
+	Timestamp from icmp data: Nov 29, 2023 11:10:51.000000000 KST
+	Timestamp from icmp data (relative): 0.138405033 seconds
+	data: 6796010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 6796010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x4756 (18262)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0xa152 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0xad71 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 25 (0x0019)
+	Sequence Number (LE): 6400 (0x1900)
+	Timestamp from icmp data: Nov 29, 2023 11:10:52.000000000 KST
+	Timestamp from icmp data (relative): 0.105358335 seconds
+	data: 779b010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 779b010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:40:56:1b
+	Address: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:00:00:18
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0xc08f (49295)
+	Flags: 0x00
+	0... .... = Reserved bit: Not set
+	.0.. .... = Don't fragment: Not set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 128
+	Protocol: ICMP (1)
+	Header Checksum: 0x2819 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 8.8.8.8
+	Destination Address: 10.211.55.30
+Layer ICMP:
+	Type: 0 (Echo (ping) reply)
+	Code: 0
+	Checksum: 0xb571 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 25 (0x0019)
+	Sequence Number (LE): 6400 (0x1900)
+	Request frame: 13
+	Response time: 32.701 ms
+	Timestamp from icmp data: Nov 29, 2023 11:10:52.000000000 KST
+	Timestamp from icmp data (relative): 0.138059413 seconds
+	data: 779b010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 779b010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x4798 (18328)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0xa110 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0x6964 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 26 (0x001a)
+	Sequence Number (LE): 6656 (0x1a00)
+	Timestamp from icmp data: Nov 29, 2023 11:10:53.000000000 KST
+	Timestamp from icmp data (relative): 0.108551919 seconds
+	data: baa7010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: baa7010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x47e5 (18405)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0xa0c3 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0x8059 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 27 (0x001b)
+	Sequence Number (LE): 6912 (0x1b00)
+	Timestamp from icmp data: Nov 29, 2023 11:10:54.000000000 KST
+	Timestamp from icmp data (relative): 0.111072185 seconds
+	data: a2b1010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: a2b1010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:40:56:1b
+	Address: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:00:00:18
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0xc091 (49297)
+	Flags: 0x00
+	0... .... = Reserved bit: Not set
+	.0.. .... = Don't fragment: Not set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 128
+	Protocol: ICMP (1)
+	Header Checksum: 0x2817 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 8.8.8.8
+	Destination Address: 10.211.55.30
+Layer ICMP:
+	Type: 0 (Echo (ping) reply)
+	Code: 0
+	Checksum: 0x8859 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 27 (0x001b)
+	Sequence Number (LE): 6912 (0x1b00)
+	Request frame: 6
+	Response time: 33.474 ms
+	Timestamp from icmp data: Nov 29, 2023 11:10:54.000000000 KST
+	Timestamp from icmp data (relative): 0.144546628 seconds
+	data: a2b1010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: a2b1010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x48d8 (18648)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0x9fd0 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0x4149 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 28 (0x001c)
+	Sequence Number (LE): 7168 (0x1c00)
+	Timestamp from icmp data: Nov 29, 2023 11:10:55.000000000 KST
+	Timestamp from icmp data (relative): 0.114967728 seconds
+	data: e0c0010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: e0c0010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:40:56:1b
+	Address: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:00:00:18
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0xc092 (49298)
+	Flags: 0x00
+	0... .... = Reserved bit: Not set
+	.0.. .... = Don't fragment: Not set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 128
+	Protocol: ICMP (1)
+	Header Checksum: 0x2816 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 8.8.8.8
+	Destination Address: 10.211.55.30
+Layer ICMP:
+	Type: 0 (Echo (ping) reply)
+	Code: 0
+	Checksum: 0x4949 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 28 (0x001c)
+	Sequence Number (LE): 7168 (0x1c00)
+	Request frame: 17
+	Response time: 33.873 ms
+	Timestamp from icmp data: Nov 29, 2023 11:10:55.000000000 KST
+	Timestamp from icmp data (relative): 0.148841124 seconds
+	data: e0c0010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: e0c0010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x490e (18702)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0x9f9a [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0x903d [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 29 (0x001d)
+	Sequence Number (LE): 7424 (0x1d00)
+	Timestamp from icmp data: Nov 29, 2023 11:10:56.000000000 KST
+	Timestamp from icmp data (relative): 0.117716792 seconds
+	data: 90cb010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 90cb010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x49ee (18926)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0x9eba [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0xb530 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 30 (0x001e)
+	Sequence Number (LE): 7680 (0x1e00)
+	Timestamp from icmp data: Nov 29, 2023 11:10:57.000000000 KST
+	Timestamp from icmp data (relative): 0.120744606 seconds
+	data: 6ad7010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 6ad7010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:40:56:1b
+	Address: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:00:00:18
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0xc097 (49303)
+	Flags: 0x00
+	0... .... = Reserved bit: Not set
+	.0.. .... = Don't fragment: Not set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 128
+	Protocol: ICMP (1)
+	Header Checksum: 0x2811 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 8.8.8.8
+	Destination Address: 10.211.55.30
+Layer ICMP:
+	Type: 0 (Echo (ping) reply)
+	Code: 0
+	Checksum: 0xbd30 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 30 (0x001e)
+	Sequence Number (LE): 7680 (0x1e00)
+	Request frame: 1
+	Response time: 61.028 ms
+	Timestamp from icmp data: Nov 29, 2023 11:10:57.000000000 KST
+	Timestamp from icmp data (relative): 0.181772702 seconds
+	data: 6ad7010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 6ad7010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x4a04 (18948)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0x9ea4 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0x0227 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 31 (0x001f)
+	Sequence Number (LE): 7936 (0x1f00)
+	Timestamp from icmp data: Nov 29, 2023 11:10:58.000000000 KST
+	Timestamp from icmp data (relative): 0.123065685 seconds
+	data: 1ce0010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 1ce0010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:40:56:1b
+	Address: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:00:00:18
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0xc098 (49304)
+	Flags: 0x00
+	0... .... = Reserved bit: Not set
+	.0.. .... = Don't fragment: Not set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 128
+	Protocol: ICMP (1)
+	Header Checksum: 0x2810 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 8.8.8.8
+	Destination Address: 10.211.55.30
+Layer ICMP:
+	Type: 0 (Echo (ping) reply)
+	Code: 0
+	Checksum: 0x0a27 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 31 (0x001f)
+	Sequence Number (LE): 7936 (0x1f00)
+	Request frame: 10
+	Response time: 112.079 ms
+	Timestamp from icmp data: Nov 29, 2023 11:10:58.000000000 KST
+	Timestamp from icmp data (relative): 0.235145143 seconds
+	data: 1ce0010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 1ce0010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x4a05 (18949)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0x9ea3 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0x3610 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 32 (0x0020)
+	Sequence Number (LE): 8192 (0x2000)
+	Timestamp from icmp data: Nov 29, 2023 11:10:59.000000000 KST
+	Timestamp from icmp data (relative): 0.128565599 seconds
+	data: e7f5010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: e7f5010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:40:56:1b
+	Address: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:00:00:18
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0xc099 (49305)
+	Flags: 0x00
+	0... .... = Reserved bit: Not set
+	.0.. .... = Don't fragment: Not set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 128
+	Protocol: ICMP (1)
+	Header Checksum: 0x280f [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 8.8.8.8
+	Destination Address: 10.211.55.30
+Layer ICMP:
+	Type: 0 (Echo (ping) reply)
+	Code: 0
+	Checksum: 0x3e10 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 32 (0x0020)
+	Sequence Number (LE): 8192 (0x2000)
+	Timestamp from icmp data: Nov 29, 2023 11:10:59.000000000 KST
+	Timestamp from icmp data (relative): 0.249181270 seconds
+	data: e7f5010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: e7f5010000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x4a4e (19022)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0x9e5a [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0x6504 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 33 (0x0021)
+	Sequence Number (LE): 8448 (0x2100)
+	Timestamp from icmp data: Nov 29, 2023 11:11:00.000000000 KST
+	Timestamp from icmp data (relative): 0.131313098 seconds
+	data: b700020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: b700020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:40:56:1b
+	Address: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:00:00:18
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0xc09a (49306)
+	Flags: 0x00
+	0... .... = Reserved bit: Not set
+	.0.. .... = Don't fragment: Not set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 128
+	Protocol: ICMP (1)
+	Header Checksum: 0x280e [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 8.8.8.8
+	Destination Address: 10.211.55.30
+Layer ICMP:
+	Type: 0 (Echo (ping) reply)
+	Code: 0
+	Checksum: 0x6d04 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 33 (0x0021)
+	Sequence Number (LE): 8448 (0x2100)
+	Request frame: 14
+	Response time: 34.056 ms
+	Timestamp from icmp data: Nov 29, 2023 11:11:00.000000000 KST
+	Timestamp from icmp data (relative): 0.165368784 seconds
+	data: b700020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: b700020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x4b0a (19210)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0x9d9e [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0xe5fb [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 34 (0x0022)
+	Sequence Number (LE): 8704 (0x2200)
+	Timestamp from icmp data: Nov 29, 2023 11:11:01.000000000 KST
+	Timestamp from icmp data (relative): 0.133200364 seconds
+	data: 3508020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 3508020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:40:56:1b
+	Address: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:00:00:18
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0xc09b (49307)
+	Flags: 0x00
+	0... .... = Reserved bit: Not set
+	.0.. .... = Don't fragment: Not set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 128
+	Protocol: ICMP (1)
+	Header Checksum: 0x280d [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 8.8.8.8
+	Destination Address: 10.211.55.30
+Layer ICMP:
+	Type: 0 (Echo (ping) reply)
+	Code: 0
+	Checksum: 0xedfb [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 34 (0x0022)
+	Sequence Number (LE): 8704 (0x2200)
+	Request frame: 23
+	Response time: 33.000 ms
+	Timestamp from icmp data: Nov 29, 2023 11:11:01.000000000 KST
+	Timestamp from icmp data (relative): 0.166200648 seconds
+	data: 3508020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 3508020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x4b7e (19326)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0x9d2a [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0x12ea [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 35 (0x0023)
+	Sequence Number (LE): 8960 (0x2300)
+	Timestamp from icmp data: Nov 29, 2023 11:11:02.000000000 KST
+	Timestamp from icmp data (relative): 0.137624057 seconds
+	data: 0719020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 0719020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:40:56:1b
+	Address: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:00:00:18
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0xc09c (49308)
+	Flags: 0x00
+	0... .... = Reserved bit: Not set
+	.0.. .... = Don't fragment: Not set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 128
+	Protocol: ICMP (1)
+	Header Checksum: 0x280c [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 8.8.8.8
+	Destination Address: 10.211.55.30
+Layer ICMP:
+	Type: 0 (Echo (ping) reply)
+	Code: 0
+	Checksum: 0x1aea [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 35 (0x0023)
+	Sequence Number (LE): 8960 (0x2300)
+	Request frame: 1
+	Response time: 35.059 ms
+	Timestamp from icmp data: Nov 29, 2023 11:11:02.000000000 KST
+	Timestamp from icmp data (relative): 0.172682646 seconds
+	data: 0719020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 0719020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x4c6d (19565)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0x9c3b [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0x75dc [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 36 (0x0024)
+	Sequence Number (LE): 9216 (0x2400)
+	Timestamp from icmp data: Nov 29, 2023 11:11:03.000000000 KST
+	Timestamp from icmp data (relative): 0.140727482 seconds
+	data: a325020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: a325020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:40:56:1b
+	Address: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:00:00:18
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0xc0bd (49341)
+	Flags: 0x00
+	0... .... = Reserved bit: Not set
+	.0.. .... = Don't fragment: Not set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 128
+	Protocol: ICMP (1)
+	Header Checksum: 0x27eb [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 8.8.8.8
+	Destination Address: 10.211.55.30
+Layer ICMP:
+	Type: 0 (Echo (ping) reply)
+	Code: 0
+	Checksum: 0x7ddc [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 36 (0x0024)
+	Sequence Number (LE): 9216 (0x2400)
+	Request frame: 72
+	Response time: 33.438 ms
+	Timestamp from icmp data: Nov 29, 2023 11:11:03.000000000 KST
+	Timestamp from icmp data (relative): 0.174165344 seconds
+	data: a325020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: a325020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x4cda (19674)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0x9bce [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0x77d4 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 37 (0x0025)
+	Sequence Number (LE): 9472 (0x2500)
+	Timestamp from icmp data: Nov 29, 2023 11:11:04.000000000 KST
+	Timestamp from icmp data (relative): 0.142545305 seconds
+	data: a02c020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: a02c020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x4d3d (19773)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0x9b6b [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0xfac5 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 38 (0x0026)
+	Sequence Number (LE): 9728 (0x2600)
+	Timestamp from icmp data: Nov 29, 2023 11:11:05.000000000 KST
+	Timestamp from icmp data (relative): 0.145974692 seconds
+	data: 1c3a020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 1c3a020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:40:56:1b
+	Address: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:00:00:18
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0xc101 (49409)
+	Flags: 0x00
+	0... .... = Reserved bit: Not set
+	.0.. .... = Don't fragment: Not set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 128
+	Protocol: ICMP (1)
+	Header Checksum: 0x27a7 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 8.8.8.8
+	Destination Address: 10.211.55.30
+Layer ICMP:
+	Type: 0 (Echo (ping) reply)
+	Code: 0
+	Checksum: 0x02c6 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 38 (0x0026)
+	Sequence Number (LE): 9728 (0x2600)
+	Request frame: 74
+	Response time: 32.671 ms
+	Timestamp from icmp data: Nov 29, 2023 11:11:05.000000000 KST
+	Timestamp from icmp data (relative): 0.178645482 seconds
+	data: 1c3a020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 1c3a020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x4e06 (19974)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0x9aa2 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0xe2bb [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 39 (0x0027)
+	Sequence Number (LE): 9984 (0x2700)
+	Timestamp from icmp data: Nov 29, 2023 11:11:06.000000000 KST
+	Timestamp from icmp data (relative): 0.148357974 seconds
+	data: 3343020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 3343020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:40:56:1b
+	Address: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:00:00:18
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0xc121 (49441)
+	Flags: 0x00
+	0... .... = Reserved bit: Not set
+	.0.. .... = Don't fragment: Not set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 128
+	Protocol: ICMP (1)
+	Header Checksum: 0x2787 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 8.8.8.8
+	Destination Address: 10.211.55.30
+Layer ICMP:
+	Type: 0 (Echo (ping) reply)
+	Code: 0
+	Checksum: 0xeabb [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 39 (0x0027)
+	Sequence Number (LE): 9984 (0x2700)
+	Request frame: 157
+	Response time: 33.481 ms
+	Timestamp from icmp data: Nov 29, 2023 11:11:06.000000000 KST
+	Timestamp from icmp data (relative): 0.181838627 seconds
+	data: 3343020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 3343020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x4e39 (20025)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0x9a6f [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0xacb4 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 40 (0x0028)
+	Sequence Number (LE): 10240 (0x2800)
+	Timestamp from icmp data: Nov 29, 2023 11:11:07.000000000 KST
+	Timestamp from icmp data (relative): 0.149924564 seconds
+	data: 6849020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 6849020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x4f17 (20247)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0x9991 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0xb793 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 41 (0x0029)
+	Sequence Number (LE): 10496 (0x2900)
+	Timestamp from icmp data: Nov 29, 2023 11:11:08.000000000 KST
+	Timestamp from icmp data (relative): 0.158201106 seconds
+	data: 5c69020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 5c69020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:40:56:1b
+	Address: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:00:00:18
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0xc123 (49443)
+	Flags: 0x00
+	0... .... = Reserved bit: Not set
+	.0.. .... = Don't fragment: Not set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 128
+	Protocol: ICMP (1)
+	Header Checksum: 0x2785 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 8.8.8.8
+	Destination Address: 10.211.55.30
+Layer ICMP:
+	Type: 0 (Echo (ping) reply)
+	Code: 0
+	Checksum: 0xbf93 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 41 (0x0029)
+	Sequence Number (LE): 10496 (0x2900)
+	Request frame: 1
+	Response time: 35.886 ms
+	Timestamp from icmp data: Nov 29, 2023 11:11:08.000000000 KST
+	Timestamp from icmp data (relative): 0.194087600 seconds
+	data: 5c69020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 5c69020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x4f8c (20364)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0x991c [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0x6b8c [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 42 (0x002a)
+	Sequence Number (LE): 10752 (0x2a00)
+	Timestamp from icmp data: Nov 29, 2023 11:11:09.000000000 KST
+	Timestamp from icmp data (relative): 0.159813829 seconds
+	data: a76f020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: a76f020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:40:56:1b
+	Address: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:00:00:18
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0xc125 (49445)
+	Flags: 0x00
+	0... .... = Reserved bit: Not set
+	.0.. .... = Don't fragment: Not set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 128
+	Protocol: ICMP (1)
+	Header Checksum: 0x2783 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 8.8.8.8
+	Destination Address: 10.211.55.30
+Layer ICMP:
+	Type: 0 (Echo (ping) reply)
+	Code: 0
+	Checksum: 0x738c [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 42 (0x002a)
+	Sequence Number (LE): 10752 (0x2a00)
+	Request frame: 10
+	Response time: 82.305 ms
+	Timestamp from icmp data: Nov 29, 2023 11:11:09.000000000 KST
+	Timestamp from icmp data (relative): 0.242118587 seconds
+	data: a76f020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: a76f020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x505f (20575)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0x9849 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0xda7f [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 43 (0x002b)
+	Sequence Number (LE): 11008 (0x2b00)
+	Timestamp from icmp data: Nov 29, 2023 11:11:10.000000000 KST
+	Timestamp from icmp data (relative): 0.162688165 seconds
+	data: 377b020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 377b020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:40:56:1b
+	Address: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:00:00:18
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0xc126 (49446)
+	Flags: 0x00
+	0... .... = Reserved bit: Not set
+	.0.. .... = Don't fragment: Not set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 128
+	Protocol: ICMP (1)
+	Header Checksum: 0x2782 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 8.8.8.8
+	Destination Address: 10.211.55.30
+Layer ICMP:
+	Type: 0 (Echo (ping) reply)
+	Code: 0
+	Checksum: 0xe27f [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 43 (0x002b)
+	Sequence Number (LE): 11008 (0x2b00)
+	Timestamp from icmp data: Nov 29, 2023 11:11:10.000000000 KST
+	Timestamp from icmp data (relative): 0.315275308 seconds
+	data: 377b020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 377b020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x511d (20765)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0x978b [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0x5a71 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 44 (0x002c)
+	Sequence Number (LE): 11264 (0x2c00)
+	Timestamp from icmp data: Nov 29, 2023 11:11:11.000000000 KST
+	Timestamp from icmp data (relative): 0.166132246 seconds
+	data: b688020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: b688020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:40:56:1b
+	Address: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:00:00:18
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0xc127 (49447)
+	Flags: 0x00
+	0... .... = Reserved bit: Not set
+	.0.. .... = Don't fragment: Not set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 128
+	Protocol: ICMP (1)
+	Header Checksum: 0x2781 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 8.8.8.8
+	Destination Address: 10.211.55.30
+Layer ICMP:
+	Type: 0 (Echo (ping) reply)
+	Code: 0
+	Checksum: 0x6271 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 44 (0x002c)
+	Sequence Number (LE): 11264 (0x2c00)
+	Request frame: 14
+	Response time: 34.315 ms
+	Timestamp from icmp data: Nov 29, 2023 11:11:11.000000000 KST
+	Timestamp from icmp data (relative): 0.200447305 seconds
+	data: b688020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: b688020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x51b4 (20916)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0x96f4 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0xfb39 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 45 (0x002d)
+	Sequence Number (LE): 11520 (0x2d00)
+	Timestamp from icmp data: Nov 29, 2023 11:11:12.000000000 KST
+	Timestamp from icmp data (relative): 0.180071518 seconds
+	data: 14bf020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 14bf020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:40:56:1b
+	Address: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:00:00:18
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0xc128 (49448)
+	Flags: 0x00
+	0... .... = Reserved bit: Not set
+	.0.. .... = Don't fragment: Not set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 128
+	Protocol: ICMP (1)
+	Header Checksum: 0x2780 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 8.8.8.8
+	Destination Address: 10.211.55.30
+Layer ICMP:
+	Type: 0 (Echo (ping) reply)
+	Code: 0
+	Checksum: 0x033a [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 45 (0x002d)
+	Sequence Number (LE): 11520 (0x2d00)
+	Request frame: 24
+	Response time: 37.835 ms
+	Timestamp from icmp data: Nov 29, 2023 11:11:12.000000000 KST
+	Timestamp from icmp data (relative): 0.217906028 seconds
+	data: 14bf020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 14bf020000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x5277 (21111)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0x9631 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0xc9a8 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 46 (0x002e)
+	Sequence Number (LE): 11776 (0x2e00)
+	Timestamp from icmp data: Nov 29, 2023 11:11:13.000000000 KST
+	Timestamp from icmp data (relative): 0.217246343 seconds
+	data: 444f030000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 444f030000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:40:56:1b
+	Address: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:00:00:18
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0xc129 (49449)
+	Flags: 0x00
+	0... .... = Reserved bit: Not set
+	.0.. .... = Don't fragment: Not set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 128
+	Protocol: ICMP (1)
+	Header Checksum: 0x277f [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 8.8.8.8
+	Destination Address: 10.211.55.30
+Layer ICMP:
+	Type: 0 (Echo (ping) reply)
+	Code: 0
+	Checksum: 0xd1a8 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 46 (0x002e)
+	Sequence Number (LE): 11776 (0x2e00)
+	Request frame: 26
+	Response time: 33.773 ms
+	Timestamp from icmp data: Nov 29, 2023 11:11:13.000000000 KST
+	Timestamp from icmp data (relative): 0.251019535 seconds
+	data: 444f030000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 444f030000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x5316 (21270)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0x9592 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0x497c [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 47 (0x002f)
+	Sequence Number (LE): 12032 (0x2f00)
+	Timestamp from icmp data: Nov 29, 2023 11:11:14.000000000 KST
+	Timestamp from icmp data (relative): 0.228087377 seconds
+	data: c37a030000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: c37a030000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:40:56:1b
+	Address: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:00:00:18
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0xc12a (49450)
+	Flags: 0x00
+	0... .... = Reserved bit: Not set
+	.0.. .... = Don't fragment: Not set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 128
+	Protocol: ICMP (1)
+	Header Checksum: 0x277e [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 8.8.8.8
+	Destination Address: 10.211.55.30
+Layer ICMP:
+	Type: 0 (Echo (ping) reply)
+	Code: 0
+	Checksum: 0x517c [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 47 (0x002f)
+	Sequence Number (LE): 12032 (0x2f00)
+	Request frame: 34
+	Response time: 224.339 ms
+	Timestamp from icmp data: Nov 29, 2023 11:11:14.000000000 KST
+	Timestamp from icmp data (relative): 0.452426181 seconds
+	data: c37a030000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: c37a030000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x53a9 (21417)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0x94ff [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0xa40a [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 48 (0x0030)
+	Sequence Number (LE): 12288 (0x3000)
+	Timestamp from icmp data: Nov 29, 2023 11:11:15.000000000 KST
+	Timestamp from icmp data (relative): 0.256953036 seconds
+	data: 67eb030000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 67eb030000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:40:56:1b
+	Address: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:00:00:18
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0xc13a (49466)
+	Flags: 0x00
+	0... .... = Reserved bit: Not set
+	.0.. .... = Don't fragment: Not set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 128
+	Protocol: ICMP (1)
+	Header Checksum: 0x276e [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 8.8.8.8
+	Destination Address: 10.211.55.30
+Layer ICMP:
+	Type: 0 (Echo (ping) reply)
+	Code: 0
+	Checksum: 0xac0a [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 48 (0x0030)
+	Sequence Number (LE): 12288 (0x3000)
+	Timestamp from icmp data: Nov 29, 2023 11:11:15.000000000 KST
+	Timestamp from icmp data (relative): 0.502849830 seconds
+	data: 67eb030000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 67eb030000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x5434 (21556)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0x9474 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0xf76e [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 49 (0x0031)
+	Sequence Number (LE): 12544 (0x3100)
+	Timestamp from icmp data: Nov 29, 2023 11:11:16.000000000 KST
+	Timestamp from icmp data (relative): 0.296512342 seconds
+	data: 1286040000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 1286040000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:40:56:1b
+	Address: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:00:00:18
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0xc142 (49474)
+	Flags: 0x00
+	0... .... = Reserved bit: Not set
+	.0.. .... = Don't fragment: Not set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 128
+	Protocol: ICMP (1)
+	Header Checksum: 0x2766 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 8.8.8.8
+	Destination Address: 10.211.55.30
+Layer ICMP:
+	Type: 0 (Echo (ping) reply)
+	Code: 0
+	Checksum: 0xff6e [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 49 (0x0031)
+	Sequence Number (LE): 12544 (0x3100)
+	Request frame: 37
+	Response time: 70.242 ms
+	Timestamp from icmp data: Nov 29, 2023 11:11:16.000000000 KST
+	Timestamp from icmp data (relative): 0.366753938 seconds
+	data: 1286040000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: 1286040000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:00:00:18
+	Address: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:40:56:1b
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0x54f3 (21747)
+	Flags: 0x40, Don't fragment
+	0... .... = Reserved bit: Not set
+	.1.. .... = Don't fragment: Set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 64
+	Protocol: ICMP (1)
+	Header Checksum: 0x93b5 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 10.211.55.30
+	Destination Address: 8.8.8.8
+Layer ICMP:
+	Type: 8 (Echo (ping) request)
+	Code: 0
+	Checksum: 0x0a51 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 50 (0x0032)
+	Sequence Number (LE): 12800 (0x3200)
+	Timestamp from icmp data: Nov 29, 2023 11:11:17.000000000 KST
+	Timestamp from icmp data (relative): 0.303916563 seconds
+	data: fea2040000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: fea2040000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48
+Packet (Length: 98)
+Layer ETH:
+	Destination: 00:1c:42:40:56:1b
+	Address: 00:1c:42:40:56:1b
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Source: 00:1c:42:00:00:18
+	.... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+	.... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+	Type: IPv4 (0x0800)
+	Address: 00:1c:42:00:00:18
+Layer IP:
+	0100 .... = Version: 4
+	.... 0101 = Header Length: 20 bytes (5)
+	Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+	0000 00.. = Differentiated Services Codepoint: Default (0)
+	.... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+	Total Length: 84
+	Identification: 0xc143 (49475)
+	Flags: 0x00
+	0... .... = Reserved bit: Not set
+	.0.. .... = Don't fragment: Not set
+	..0. .... = More fragments: Not set
+	...0 0000 0000 0000 = Fragment Offset: 0
+	Time to Live: 128
+	Protocol: ICMP (1)
+	Header Checksum: 0x2765 [validation disabled]
+	Header checksum status: Unverified
+	Source Address: 8.8.8.8
+	Destination Address: 10.211.55.30
+Layer ICMP:
+	Type: 0 (Echo (ping) reply)
+	Code: 0
+	Checksum: 0x1251 [correct]
+	Checksum Status: Good
+	Identifier (BE): 4 (0x0004)
+	Identifier (LE): 1024 (0x0400)
+	Sequence Number (BE): 50 (0x0032)
+	Sequence Number (LE): 12800 (0x3200)
+	Request frame: 44
+	Response time: 38.164 ms
+	Timestamp from icmp data: Nov 29, 2023 11:11:17.000000000 KST
+	Timestamp from icmp data (relative): 0.342080735 seconds
+	data: fea2040000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+	Data: fea2040000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b…
+	Length: 48

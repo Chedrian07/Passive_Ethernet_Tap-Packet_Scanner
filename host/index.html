@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Files</title>
+</head>
+<body>
+    <h1>Available Files</h1>
+    <ul>
+        {% for file in files %}
+            <li><a href="{{ url_for('file_download', filename=file) }}">{{ file }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
